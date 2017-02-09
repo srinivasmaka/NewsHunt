@@ -6,6 +6,9 @@
 #
 default: &default
   adapter: mysql2
+  port: 3306
+  username: newshunt
+  password: newshunt
   pool: 5
   timeout: 5000
 
