@@ -5,10 +5,9 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: mysql2
-  port: 3306
+  adapter: postgresql
+  encoding: unicode
   username: newshunt
-  password: newshunt
   pool: 5
   timeout: 5000
 
