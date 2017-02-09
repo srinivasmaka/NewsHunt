@@ -23,7 +23,5 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  username: news_hunt
-  password: news_hunt
   pool: 5
   timeout: 5000
